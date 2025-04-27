@@ -4,7 +4,7 @@ import s from "./ContactForm.module.css";
 import * as Yup from "yup";
 import FormInput from "../FormInput/FormInput";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 
 const phoneRegex = /(?:\+|\d)[\d\-\(\) ]{9,}\d/g;
 const contactSchema = Yup.object().shape({
