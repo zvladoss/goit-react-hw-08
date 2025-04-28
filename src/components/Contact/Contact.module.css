@@ -1,17 +1,42 @@
-.contactWrapper {
+.modal {
+  background-color: #f5f5dc;
+  border: 2px solid rgba(255, 215, 0, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.modal input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px;
+}
+.item {
   display: flex;
-  align-items: center;
+  width: 320px;
+  height: 80px;
+  border: 2px solid rgba(255, 215, 0, 0.7);
+  border-radius: 8px;
+  padding: 8px;
   justify-content: space-between;
-  max-width: 320px;
-  & div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 8px;
-    & p {
-      word-break: break-word;
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-    }
-  }
+  align-items: center;
+}
+.btn {
+  height: 40px;
+}
+.wrap {
+  display: block;
+  align-items: center;
+}
+.icon {
+  margin-right: 8px;
+  color: #e6c68e;
+}
+.pen {
+  color: #d4af37;
+  width: 32px;
+  height: 32px;
+}
+.btn {
+  margin-bottom: 4px;
 }
